@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,300 & family= Pacifico & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* fond */
+body{
+     background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+  
+}
+/* navbar css */
+.nav-list{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    padding: 0,5%;
+    margin: 0,5%;
+    border-radius: 5%;
+}
+.bar{
+color: white ;
+}
+/* mes 3 flexbox */
+.contenue{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5%;
+    justify-content: space-around;
+}
+.boite1{
+opacity: 1;
+width: 300px;
+height: 300px;
+border-radius: 5%;
+font-size: large;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.boite2{
+    opacity: 1;
+width: 300px;
+height: 300px;
+border-radius: 7%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.boite3{
+    opacity: 1;
+width: 300px;
+height: 300px;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+}
+.trait1{
+    height: 7px;
+    width: 50%;
+    margin: 5% auto;
+    background-color: #fc5d5d ;
+}
+.titre2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+.gras{
+    font-size: medium;
+    text-decoration: underline;
+}
+.white{
+    color: white;
+}
+.pointf{
+    margin: 2%;
+}
+.pointfa{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.trait2{
+    height: 7px;
+    width: 50%;
+    margin: 5% auto;
+    background-color: #fc5d5d ;
+}
+.contenue2{
+    display: flex;
+    
+color: white;
+padding: 5%;
+justify-content: space-around;
+}
+
+.boite4{
+    opacity: 1;
+    width: 80%;
+    height: 150px;
+    border-radius: 7%;
+    margin-left: 50px;
+ 
+  }
+.boite4 h2{
+    margin-bottom: 20px;
+}
+
+.boite4 img{
+    height: 100px;
+}
+
+ .boite5{
+    opacity: 1;
+    width: 100%;
+    height: 150px;
+    border-radius: 7%;
+  }
+  .boite5 img{
+    height: 100px;
+  }
+/* animation insta */
+.contenue {
+    animation-duration: 6s;
+    animation-name: slidein;
+  }
+ 
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  p {
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-direction: alternate;
+  }
+  
